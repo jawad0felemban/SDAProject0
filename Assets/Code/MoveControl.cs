@@ -11,17 +11,17 @@ public class MoveControl : MonoBehaviour
 {
     [SerializeField] float m_speed;
     private Rigidbody m_Player;
-    
+
 
     public void Awake()
     {
         m_Player = GetComponent<Rigidbody>();
     }
-    
+
     void Start()
     {
-        
-        
+
+
     }
 
     //private float q = 0.0f;
@@ -40,7 +40,7 @@ public class MoveControl : MonoBehaviour
         {
             for (int i = 0; i < 11; i++)
             {
-                m_Player.velocity = Vector3.up ;
+                m_Player.velocity = Vector3.up;
             }
         }
 
