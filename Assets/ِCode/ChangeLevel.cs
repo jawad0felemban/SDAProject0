@@ -6,17 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class MyButtontoChageLevel : MonoBehaviour
 {
-    
-    public void GotoStartGame()
+
+    public void ChangetoMain()
     {
-        SceneManager.LoadScene("StartGame");
+        SceneManager.LoadScene("MainLevel");
     }
-    public void GotoLevelOne()
+    public void ChangetoLvOne()
     {
         SceneManager.LoadScene("LevelOne");
     }
-    public void GotoLevelTwo()
+    public void ChangetoLvTwo()
     {
         SceneManager.LoadScene("LevelTwo");
+    }
+    public void ChangetoLeThree()
+    {
+        SceneManager.LoadScene("LevelThree");
     }
 }
