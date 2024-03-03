@@ -10,6 +10,7 @@ public class MyButtontoChageLevel : MonoBehaviour
     public void ChangetoMain()
     {
         SceneManager.LoadScene("MainLevel");
+        
     }
     public void ChangetoLvOne()
     {
