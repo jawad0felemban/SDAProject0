@@ -72,15 +72,15 @@ public class ShorterGun : MonoBehaviour
         //}
 
     }
-    private void ShootY()
+    private void ShootB()
     {
         Instantiate(m_bloodBall, transform.position, Quaternion.identity);
     }
-    private void ShootR()
+    private void ShootE()
     {
         Instantiate(m_EletroBall, transform.position, Quaternion.identity);
     }
-    private void ShootB()
+    private void ShootW()
     {
         Instantiate(m_waterBall, transform.position, Quaternion.identity);
     }

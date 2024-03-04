@@ -6762,7 +6762,7 @@ MonoBehaviour:
   m_bloodBall: {fileID: 781837347623381932, guid: 001045dd193bf1345acf126292c0781e, type: 3}
   m_EletroBall: {fileID: 781837347623381932, guid: 2d357ef05a429fd43b4d56bccb29df2e, type: 3}
   m_waterBall: {fileID: 781837347623381932, guid: 1c26a5563a8076148b3f254147e595d4, type: 3}
-  m_FireRateOfShoting: 0.5
+  m_FireRateOfShoting: 0.1
 --- !u!1 &1470310063
 GameObject:
   m_ObjectHideFlags: 0
