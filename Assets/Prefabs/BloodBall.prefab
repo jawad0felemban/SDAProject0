@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6906396135046305325}
   - component: {fileID: 5263528533545981959}
   - component: {fileID: 5185231038533673797}
-  - component: {fileID: 2686145520004029329}
   - component: {fileID: -789650968395275139}
   - component: {fileID: -921227449204808653}
   - component: {fileID: 4073735602517334352}
@@ -8609,28 +8608,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781837347623381932}
   m_Mesh: {fileID: 0}
---- !u!64 &2686145520004029329
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781837347623381932}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!114 &-789650968395275139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8643,7 +8620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e27a1da086114046bcf1c13bd653df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Speed: 1000
+  m_Speed: 100
   m_Bulletslifetime: 0.5
 --- !u!54 &-921227449204808653
 Rigidbody:

@@ -9,6 +9,7 @@ using UnityEngine.Video;
 public class DestroyMyEnemy : MonoBehaviour
 {
     private Rigidbody m_VsObject;
+
     //private Pausebutton m_Text;
     //private MyKillScore m_MyKillCounter;
 
@@ -32,6 +33,7 @@ public class DestroyMyEnemy : MonoBehaviour
             //m_MyKillCounter.IncreaseCounter();
             Destroy(gameObject);
         }
+
         if (collision.gameObject.tag == "PlayerWeapon")
         {
             Destroy(gameObject);

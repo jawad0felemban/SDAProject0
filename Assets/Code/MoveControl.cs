@@ -26,7 +26,7 @@ public class MoveControl : MonoBehaviour
 
     //private float q = 0.0f;
 
-    private void FixUpdate()
+    private void Update()
     {
         if (Input.GetKey(KeyCode.W))
             m_Player.velocity = Vector3.forward * m_speed;
